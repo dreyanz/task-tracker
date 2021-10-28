@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'task-tracker';
+  title = 'Task Tracker';
+
+  toggleAddTask(){
+    alert("btn click from app component");
+  }
+
+
 }
