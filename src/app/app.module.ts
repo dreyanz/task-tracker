@@ -11,6 +11,7 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HighlightDirective } from './highlight.directive';
+import { TaskItemDetailsComponent } from './components/task-item-details/task-item-details.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HighlightDirective } from './highlight.directive';
     TaskItemComponent,
     AddTaskComponent,
     HeaderComponent,
-    HighlightDirective
+    HighlightDirective,
+    TaskItemDetailsComponent
   ],
   imports: [
     BrowserModule,

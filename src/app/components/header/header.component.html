@@ -3,6 +3,6 @@
 
     <app-button 
         color="{{ showAddTask ? 'red' : 'green' }}"
-        text="{{ showAddTask ? 'Close' : 'Add' }}" 
-        (btnClick)="toggleAddTask()"></app-button>
+        text="{{ btnLabelText }}" 
+        (btnClick)="onHeaderBtnClick()"></app-button>
 </header>

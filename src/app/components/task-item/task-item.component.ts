@@ -1,5 +1,7 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+
+import { Task } from 'src/app/Task';
 
 @Component({
   selector: 'app-task-item',
@@ -9,6 +11,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 export class TaskItemComponent implements OnInit {
 
   @Input() task: any;
+  @Output() onItemClick : EventEmitter<Task> = new EventEmitter();
   color: string = "red";
 
   date: Date = new Date();
@@ -18,5 +21,8 @@ export class TaskItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onNavigate(task : Task) {
+    this.onItemClick.emit(task);
+  }
 
 }

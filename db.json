@@ -1,40 +1,16 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "May 6th at 2:30pm",
-      "reminder": false
-    },
-    {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "text": "Hello Worl",
-      "day": "June 25 @ 3pm",
-      "reminder": false,
-      "id": 4
-    },
-    {
-      "text": "Test Demo",
-      "day": "June 25 @ 3pm",
-      "reminder": false,
-      "id": 4
-    },
-    {
-      "text": "testte",
-      "day": "test",
-      "reminder": false,
-      "id": 5
-    },
-    {
       "text": "Demo Task",
       "day": "June 1, 2021 ",
       "reminder": true,
       "id": 6
+    },
+    {
+      "text": "test add",
+      "day": "June 1",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
